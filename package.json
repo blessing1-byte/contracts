@@ -10,7 +10,7 @@
       "import": "./dist/index.js"
     }
   },
-  "file": [
+  "files": [
     "dist"
   ],
   "scripts": {
