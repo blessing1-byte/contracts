@@ -6,7 +6,7 @@ export type UpdatedUserPayload = {
   message: string;
 };
 
-export interface UpdateUserEvent {
+export interface UpdateUserPasswordEvent {
   headers: EventHeaders;
   message: EventEnvelope<UpdatedUserPayload>;
 }
