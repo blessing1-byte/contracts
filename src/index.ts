@@ -17,3 +17,6 @@ export { AgentCreatedEvent } from "./events/auth/agent.created.js";
 
 //types
 export { UserRole } from "./types/auth/userRoles.js";
+
+//outbox event type
+export { Events } from "./types/events_outbox/event_type.js";

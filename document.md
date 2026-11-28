@@ -54,3 +54,18 @@ Consumer expectations: What information can consuming services expect to receive
 There's one subtle distinction I want you to understand:
 
 The contract doesn't necessarily define everything a consumer will use. It defines what the producer promises to provide. Consumers decide which parts they need.
+
+UPDATE VERSION OF YOUR PACKAGE
+npm version patch
+npm version minor
+npm version major
+
+the correct order is:
+
+1. Modify your contracts inside src.
+2. Build to generate updated dist.
+3. Update version using patch, minor, or major.
+4. Publish the new version.
+
+how to view the added files
+npm pack @blessing1-byte/contracts@1.0.0
